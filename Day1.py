@@ -1,7 +1,8 @@
 print("welcome")
 print("to")
 
-a=int(input("enter a number"))
+a=int(input("Enter Your Password"))
       
 print("welcome")
 print("to")
+print("python")
