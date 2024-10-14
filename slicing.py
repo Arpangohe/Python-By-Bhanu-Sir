@@ -41,3 +41,12 @@ print(g)
 # The resulting reversed list is then printed.
 reversed_lis1 = lis1[::-1]
 print(reversed_lis1)
+
+#Practice 
+
+st = "we are here to learn python. and slicing is very helpful"
+print(st[7:21])  # prints "here to learn"
+print(st[33:])  # prints "slicing is very helpful"
+print(st[3:4]+st[12:13]+st[15:16]+st[18:19])  # prints "atlr"
+print(st[3:4]+' '+st[12:13]+st[15:16]+st[18:19])  # prints " a tlr"
+print(st[3:19:3]) # print "a rtlr"
