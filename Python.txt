@@ -219,3 +219,30 @@ This process allows Python to be both interpreted and compiled, contributing to 
 # This means that the source code can be run on any platform without any modification.
 
 
+=====================================================================================================================================
+
+# Sequence :
+    # Ordered Data Type
+    #1. List
+    #2. Tuple
+    #3. String
+
+To maintain order of data type we use indexing 
+
+
+In Python when we want to store multiple elements with the help of single Referce (vairable), Then we have two options
+#1. List 
+#2. Tuple
+
+    List is a container in which we contain hydrogenius data as we as Homogeunius  { Array is not a buil-in support in Python}
+    
+    # List Manipulation
+    List is a mutable data type
+
+    #Empty List
+    1. lis=[]
+    2. li = list()
+
+#Slicing
+    #Slicing is used to get a slice (subsequence )of a sequence datatype
+    
