@@ -4,15 +4,16 @@ print(lis1)
 
 a = lis1[3 : 8 :1]
 print(a)
-b = list[3:8:1]
+# The line 'b = list[3:8:1]' is incorrect as it is trying to slice a non-existent list 'list'. It should be corrected to slice the actual list 'lis1'.
+# Corrected line: b = lis1[3:8:1]
+b = lis1[3:8:1]
 print(b)
 
 # Slicing is used to extract a subset of elements from a list. Here, we are slicing the list 'lis1' to get two subsets.
-# 'c' is assigned the slice of 'lis1' from index 3 to 6 (exclusive), which includes elements at indices 3, 4, and 5.
 # 'd' is assigned the slice of 'lis1' from index 8 to the end of the list, which includes all elements starting from index 8.
 # The '+' operator is used to concatenate the two lists 'c' and 'd', effectively combining the two subsets into a single list.
 # The resulting combined list is then printed.
-c = lis1[3 : 6]
+c = lis1[3 : 6]  
 d = lis1[8:]
 print(c+d)
 
@@ -24,3 +25,19 @@ print(c+d)
 e = lis1[3:6]+lis1[8 :]
 print(e)
 
+# The following lines of code are slicing the list 'lis1' in reverse order to extract subsets of elements.
+# The slice 'lis1[7:2:-1]' starts from index 7, moves backwards to index 2 (exclusive), and steps backwards by 1 element each time.
+# The slice 'lis1[-4:-9:-1]' starts from index -4 (which is equivalent to the 8th element from the end), moves backwards to index -9 (which is equivalent to the 3rd element from the end), and steps backwards by 1 element each time.
+# The resulting subsets are then printed.
+
+f = lis1[7 : 2 : -1]
+print(f)
+
+g = lis1[-4 : -9 :-1]
+print(g)
+
+# This section of the code is designed to print all the elements of the list 'lis1' in reverse order.
+# The slice 'lis1[::-1]' starts from the end of the list, moves backwards to the beginning, and steps backwards by 1 element each time.
+# The resulting reversed list is then printed.
+reversed_lis1 = lis1[::-1]
+print(reversed_lis1)
