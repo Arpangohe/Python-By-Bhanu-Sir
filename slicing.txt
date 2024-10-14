@@ -1,0 +1,37 @@
+# Example of slicing a list to extract a subset of elements
+def slice_list(input_list, start, end, step=1):
+    """
+    Slices the input list from start to end with a specified step.
+    
+    Args:
+    input_list (list): The list to be sliced.
+    start (int): The starting index of the slice.
+    end (int): The ending index of the slice.
+    step (int, optional): The step size of the slice. Defaults to 1.
+    
+    Returns:
+    list: A subset of elements from the input list based on the specified slice.
+    """
+    return input_list[start:end:step]
+
+# Example usage
+lis1 = [12, 3, 44, 'Arpan', 56, 7, 88, 'Jalaj', 33, 4, 5]
+sliced_list = slice_list(lis1, 3, 8)
+print(sliced_list)
+
+# More interview questions
+# Q1: What is the difference between a list and a tuple in Python?
+# A1: A list is mutable, meaning its elements can be changed after creation. A tuple is immutable, meaning its elements cannot be changed after creation.
+
+# Q2: What is the difference between '==' and 'is' in Python?
+# A2: '==' is used to compare the values of two objects, while 'is' is used to compare the identities of two objects.
+
+# Q3: What is the purpose of the 'pass' statement in Python?
+# A3: The 'pass' statement is a null operation, meaning it does nothing. It is used as a placeholder when a statement is required syntactically but no code needs to be executed.
+
+# Q4: What is the purpose of the 'break' statement in Python?
+# A4: The 'break' statement is used to exit a loop prematurely. When a 'break' statement is encountered, the loop is terminated and the program continues with the next statement after the loop.
+
+# Q5: What is the purpose of the 'continue' statement in Python?
+# A5: The 'continue' statement is used to skip the rest of the code inside a loop for the current iteration only. The loop does not terminate but continues with the next iteration.
+
