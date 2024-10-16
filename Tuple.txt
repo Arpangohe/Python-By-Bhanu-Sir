@@ -21,3 +21,25 @@
     #   - It is slower and less efficient than the stack due to the overhead of dynamic allocation.
     #   - Garbage collection is used to manage the heap and free up unused memory.
     # The image @Stack and Heap.jpg illustrates the difference between stack and heap memory allocation in Python.
+
+    lis = [["ajay", "arpan"],(12,14)]
+
+    lis[1][0]=99 ---> error (tuple)
+
+    Let's break down the code step by step.
+
+The code defines a list lis with two elements:
+
+The first element is a list ["ajay", "arpan"].
+The second element is a tuple (12, 14).
+Then, it tries to modify the first element of the second element of lis by assigning 99 to it: lis[1][0] = 99.
+
+The issue here is that the second element of lis is a tuple, which is an immutable data structure in Python. This means that once a tuple is created, its elements cannot be modified.
+
+In Python, when you try to modify a tuple, you'll get a TypeError because tuples are immutable. That's why you're seeing an error when you try to assign 99 to lis[1][0].
+
+Here's a summary of the code:
+
+lis is a list with two elements: a list and a tuple.
+The code tries to modify the first element of the tuple, which is not allowed because tuples are immutable.
+This results in a TypeError.
