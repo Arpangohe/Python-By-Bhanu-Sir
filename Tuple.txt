@@ -1,0 +1,23 @@
+# Tuple
+    1. It is a sequence data type (Ordered data type)
+    2. It is an immutable data type
+    3. a) Representation ()
+       b) Comma separated
+    4. It is faster than a list
+    5. Single Element Representation
+    6. Generally, whenever data is fetched from a database, it is stored in the form of a Tuple or dictionary. 
+
+    # Stack and Heap Memory Allocation
+    # In Python, memory is managed by the Python Memory Manager. It divides the memory into two areas: Stack and Heap.
+    # Stack:
+    #   - It is a region of memory that stores data in a Last-In-First-Out (LIFO) order.
+    #   - It is used to store primitive data types such as integers, floats, and characters.
+    #   - The stack is used for static memory allocation.
+    #   - It is faster and more efficient than the heap.
+    # Heap:
+    #   - It is a region of memory that stores data in a random order.
+    #   - It is used to store complex data types such as lists, dictionaries, and objects.
+    #   - The heap is used for dynamic memory allocation.
+    #   - It is slower and less efficient than the stack due to the overhead of dynamic allocation.
+    #   - Garbage collection is used to manage the heap and free up unused memory.
+    # The image @Stack and Heap.jpg illustrates the difference between stack and heap memory allocation in Python.
