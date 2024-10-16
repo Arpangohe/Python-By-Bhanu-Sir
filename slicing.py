@@ -50,3 +50,5 @@ print(st[33:])  # prints "slicing is very helpful"
 print(st[3:4]+st[12:13]+st[15:16]+st[18:19])  # prints "atlr"
 print(st[3:4]+' '+st[12:13]+st[15:16]+st[18:19])  # prints " a tlr"
 print(st[3:19:3]) # print "a rtlr"
+print(st[0:21]+ st[36:37]+st[21:22]+st[21:22]+st[27:])
+print(st[:21] + "Cpp"+ st[27:])
