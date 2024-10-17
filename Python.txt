@@ -245,4 +245,13 @@ In Python when we want to store multiple elements with the help of single Referc
 
 #Slicing
     #Slicing is used to get a slice (subsequence )of a sequence datatype
+
+    # List, set , and dictionary 
+
+#String:
+    1. Sequence (Ordered)
+    2. Imutable
+
+    
+
     
