@@ -12,3 +12,18 @@ print(b)
 #Lower()
 c=msg.lower()
 print(c)
+# ------------------------------------
+
+msg1 = "APPLE IS UPPER 0"
+# isupper() ---> return boolean output
+
+a=msg1.isupper()
+print(a)
+
+b=msg1.isdigit()
+print(b)
+
+c=msg1.islower()
+print(c)
+
+
