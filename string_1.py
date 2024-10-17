@@ -14,7 +14,7 @@ c=msg.lower()
 print(c)
 # ------------------------------------
 
-msg1 = "APPLE IS UPPER 0"
+msg1 = "APPLEISUPPER"
 # isupper() ---> return boolean output
 
 a=msg1.isupper()
@@ -26,4 +26,6 @@ print(b)
 c=msg1.islower()
 print(c)
 
+d=msg1.isalpha()
+print(d)
 
