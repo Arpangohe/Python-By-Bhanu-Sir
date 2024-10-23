@@ -1,0 +1,91 @@
+# Set : 
+# A set is a collection which is unordered and unindexed. In Python sets are written with curly brackets.
+# A set is an unordered collection of unique elements.
+
+# Definition of a set in Python
+A set is an unordered collection of unique elements. It is defined using curly brackets {}.
+The elements in a set are not ordered, and there is no concept of index or position.
+The most significant feature of a set is that it does not allow duplicate values. 
+If you try to add a duplicate value, it will be ignored.
+
+When our primary focus is on the data itself, without any emphasis on its order, we utilize a set.
+
+# Key points about sets:
+# 1. Unordered collection
+# 2. Unique elements (no duplicates)
+# 3. Defined using curly brackets {}
+# 4. No concept of index or position
+
+# Comparison with lists:
+# Lists are ordered collections that allow duplicate values.
+# Sets are unordered collections that do not allow duplicate values.
+
+# Union of Sets:
+# The union of two sets is a set that contains all elements from both sets. 
+# It is denoted by the symbol ∪ and is used to combine elements from two sets into a single set.
+# In Python, the union of two sets can be found using the union() method or the | operator.
+
+# Example:
+# Set A = {1, 2, 3, 4, 5}
+# Set B = {4, 5, 6, 7, 8}
+# Union of A and B = {1, 2, 3, 4, 5, 6, 7, 8}
+
+# Python code to find the union of two sets:
+A = {1, 2, 3, 4, 5}
+B = {4, 5, 6, 7, 8}
+union_set = A.union(B)  # Using the union() method
+print("Union of A and B:", union_set)
+
+# Alternatively, using the | operator
+union_set = A | B
+print("Union of A and B:", union_set)
+
+# Intersection of Sets:
+# The intersection of two sets is a set that contains all elements that are common to both sets. 
+# It is denoted by the symbol ∩ and is used to find elements that are present in both sets.
+# In Python, the intersection of two sets can be found using the intersection() method or the & operator.
+
+# Example:
+# Set A = {1, 2, 3, 4, 5}
+# Set B = {4, 5, 6, 7, 8}
+# Intersection of A and B = {4, 5}
+
+# Python code to find the intersection of two sets:
+A = {1, 2, 3, 4, 5}
+B = {4, 5, 6, 7, 8}
+intersection_set = A.intersection(B)  # Using the intersection() method
+print("Intersection of A and B:", intersection_set)
+
+# Alternatively, using the & operator
+intersection_set = A & B
+print("Intersection of A and B:", intersection_set)
+
+# Difference of Sets:
+# The difference of two sets is a set that contains all elements that are in the first set but not in the second set. 
+# It is denoted by the symbol - and is used to find elements that are unique to the first set.
+# In Python, the difference of two sets can be found using the difference() method or the - operator.
+
+# Example:
+# Set A = {1, 2, 3, 4, 5}
+# Set B = {4, 5, 6, 7, 8}
+# Difference of A and B = {1, 2, 3}
+# Difference of B and A = {6, 7, 8}
+
+# Python code to find the difference of two sets:
+A = {1, 2, 3, 4, 5}
+B = {4, 5, 6, 7, 8}
+difference_set_A_B = A.difference(B)  # Using the difference() method
+print("Difference of A and B:", difference_set_A_B)
+
+# Alternatively, using the - operator
+difference_set_A_B = A - B
+print("Difference of A and B:", difference_set_A_B)
+
+difference_set_B_A = B.difference(A)  # Using the difference() method
+print("Difference of B and A:", difference_set_B_A)
+
+# Alternatively, using the - operator
+difference_set_B_A = B - A
+print("Difference of B and A:", difference_set_B_A)
+
+
